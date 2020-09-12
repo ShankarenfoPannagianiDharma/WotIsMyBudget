@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/activity_new_expense"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="shankarenfo.wotismybudget.NewExpense"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    android:padding="15dp"
+    android:background="@android:color/holo_green_light">
+        <TableLayout
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:stretchColumns="0,1">
+                <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lbl_currentdate"
+                            android:text="@string/NewExpPlaceholderTitle"
+                            android:layout_gravity="center_horizontal|fill_horizontal" />
+                </TableRow>
+                <TableRow>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lbl_InsertName"
+                            android:text="@string/NewExpExpenseLabel"
+                            android:layout_gravity="center_horizontal|fill_horizontal"
+                            android:layout_marginTop="5dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/lbl_InsertCost"
+                            android:text="@string/NewExpAmountLabel"
+                            android:layout_gravity="fill_horizontal"
+                            android:layout_marginTop="5dp" />
+                </TableRow>
+                <TableRow>
+
+                        <AutoCompleteTextView
+                            android:id="@+id/txt_InputName"
+                            style="@style/Widget.AppCompat.EditText"
+                            android:hint="@string/NewExpHintName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="fill_horizontal"
+                            android:layout_margin="5dp"
+                            android:background="@android:color/background_light"
+                            android:ems="7"
+                            android:inputType="textPersonName" />
+
+                        <EditText
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="@string/NewExpHintCost"
+                            android:id="@+id/txt_InputCost"
+                            android:ems="7"
+                            android:layout_gravity="fill_horizontal"
+                            android:background="@android:color/background_light"
+                            android:layout_margin="5dp"
+                            android:inputType="numberDecimal"
+                            android:importantForAutofill="no" />
+                </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_InsertNewExpense"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="5dp"
+            android:onClick="newBudget"
+            android:text="@string/NewExpButtonAccept" />
+
+        <Button
+            android:id="@+id/btn_Backout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="backOut"
+            android:text="@string/NewExpButtonCancel" />
+
+</LinearLayout>

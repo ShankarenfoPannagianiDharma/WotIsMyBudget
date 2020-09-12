@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">WotIsMyBudget</string>
+
+    <!-- Main screen strings -->
+    <string name="MainPlaceholderDate">CURRENTDATE</string>
+    <string name="MainPlaceholderSpending">0</string>
+    <string name="MainButtonBudgeting">Budgeting Record</string>
+    <string name="MainButtonNewExpense">New Expenses</string>
+    <string name="MainButtonManageRecs">Manage Records</string>
+    <string name="InteractButtonPrev">Prev</string>
+    <string name="InteractButtonNext">Next</string>
+    <string name="RecordsBudget">Budget</string>
+    <string name="RecordsPlaceholderDate">CurrentDate</string>
+    <string name="RecordsPlaceholderDay">Day</string>
+    <string name="RecordsPlaceholderAmount">Amount</string>
+    <string name="RecordsTotalBudget">Total Budget:</string>
+    <string name="RecordsPlaceholderSpending">$$$$$$</string>
+    <string name="RecordsPlaceholderNoRecord">No budget record found</string>
+    <string name="RecordsButtonSwitchView">Expenses by Category</string>
+    <string name="RecordsButtonBack">Exit</string>
+    <string name="CategoryHeading">Expenses by Category</string>
+    <string name="CategoryBack">Individual Expenses</string>
+    <string name="CategoryPlaceholderSpendings">$$$$</string>
+    <string name="CategorySpendings">Total Spendings:</string>
+    <string name="CategoryTotalExpenses">Total Expenses</string>
+    <string name="CategoryCount">##</string>
+    <string name="CategoryName">Category</string>
+    <string name="FilesTitle">All Record Files</string>
+    <string name="FilesReturn">Done</string>
+    <string name="FilesExplanation">Files are stored in external storage, in WotBudgets? folder. Uninstalling the application DOES NOT delete these files!</string>
+    <string name="NewExpPlaceholderTitle">New expense for [DATE]</string>
+    <string name="NewExpExpenseLabel">Expense:</string>
+    <string name="NewExpAmountLabel">Amount:</string>
+    <string name="NewExpButtonAccept">Accept</string>
+    <string name="NewExpButtonCancel">Cancel</string>
+    <string name="NewExpHintName">Item name</string>
+    <string name="NewExpHintCost">$$ Cost</string>
+
+
+</resources>

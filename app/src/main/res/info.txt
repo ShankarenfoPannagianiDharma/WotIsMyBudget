@@ -1,0 +1,12 @@
+File is named "MMM|YYYY.txt"
+Found in Environment.getExternalStorageDirectory()+"/WotBudgets?"
+[/WotBudgets?/May|2013.txt]
+
+file structure:
+[Total Expenses]
+[Individual Expenses|cost|Day]
+    | |
+   \   /
+6,000
+Food@3,000@12
+Clothes@3,000@15
